@@ -9,8 +9,6 @@ use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\PembinaController;
 use App\Http\Controllers\UmkmController;
 
-// middleware('administrator')->
-
 Route::get('/', function () {
     return view('welcome');
 });
